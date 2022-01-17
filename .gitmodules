@@ -4,3 +4,6 @@
 [submodule "android-ip-webcam-usb"]
 	path = android-ip-webcam-usb
 	url = https://github.com/christiankyle-ching/android-ip-webcam-usb
+[submodule "DisableAutoLoginWin10"]
+	path = DisableAutoLoginWin10
+	url = https://github.com/christiankyle-ching/DisableAutoLoginWin10
