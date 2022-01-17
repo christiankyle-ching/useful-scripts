@@ -1,3 +1,6 @@
 [submodule "pldt-fibr-ap-isolation-fix"]
 	path = pldt-fibr-ap-isolation-fix
 	url = https://github.com/christiankyle-ching/pldt-fibr-ap-isolation-fix
+[submodule "android-ip-webcam-usb"]
+	path = android-ip-webcam-usb
+	url = https://github.com/christiankyle-ching/android-ip-webcam-usb
