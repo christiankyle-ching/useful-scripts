@@ -25,7 +25,7 @@ FOR %%i IN (*.pdf) DO COPY "%%i" ".\output\%_prefix%%%i%_suffix%"
 @REM Convert PDFs to PNGs inside a folder
 cd output
 FOR %%i IN (*.pdf) DO (
-    magick "%%i" ".\PNGs\%%i.PNG" && ECHO SUCCESS: Converted %%i to PNG || GOTO install_first
+    magick -density 300 "%%i" ".\PNGs\%%i.PNG" && ECHO SUCCESS: Converted %%i to PNG || GOTO install_first
 )
 cd ..
 
